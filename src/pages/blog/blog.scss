@@ -1,0 +1,49 @@
+page-blog {
+    .toolbar-title-md{
+        color: black;
+    }
+
+    .paddingfix{
+        padding-left: 9%;
+    }
+    .leftpane{
+        background-color: #46529d;
+        color: white;
+
+        .writer{
+            margin-top: 30%;
+        }
+
+    }
+
+    .rightpane{
+        .imageContainer{
+            max-height: 30%;
+        }
+
+        .paddingfixRight{
+            padding-top: 4%;
+            padding-left:6%;
+        }
+
+        .blog-data{
+            color: #878db4;
+            font-size:1.2em;
+            letter-spacing: 3px;
+        }
+    }
+
+    .grid{
+        padding: 0px;
+    }
+
+    .blog-title{
+        color: #46529d;
+        font-size: 2.3em;
+        letter-spacing: 3px;
+    }
+
+    .onlyText{
+        color: #f1f4ff;
+    }
+}

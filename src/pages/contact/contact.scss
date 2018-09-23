@@ -1,0 +1,38 @@
+page-contact {
+    hr {
+        border:none;
+        border-top:1px dotted;
+        color:#fff;
+        background-color:#fff;
+        height:1px;
+        width:50%;
+      }
+
+      .titleparent{
+          margin-top: 5%;
+        .contacttitle{
+            font-size: 4em;
+        }
+        .description{
+            ion-col{
+                margin-top: 1% !important;
+            }
+        }
+
+        .forminput{
+            margin-top: 8%;
+            color: red;
+        }
+        #map{
+            height: 100%;
+        }
+
+        span{
+            margin-left: 3%;
+        }
+        .font{
+            font-size: 1.5em !important;
+        }
+      }
+      
+}

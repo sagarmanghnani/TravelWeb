@@ -1,3 +1,156 @@
 page-home {
+    .heading{
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    .sub-heading{
+        font-size: 4rem;
+        line-height: 1.5;
+        margin: 0.5rem;
+    }
+    ion-header{
+        padding: 60px 0;
+        &:after{
+            background: none !important;
+        }
+        color: #fff;
+    }
+    .toolbar-background{
+        background: none;
+    }
+    font-family: 'Lato' ;
+    .scroll-content{
+        margin: 0 !important;
+    }
+    .top-section{
+        /*background-image: url("../../assets/imgs/hero_1.jpg");*/
+        background-size: cover;
+        height: 100vh;
+        min-height: 700px;
+        width: 100%;
+        justify-content: center!important;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        .container{
+            z-index: 5;
+        }
+        
+        ion-slides{
+            position: absolute;
+            top: 0;
+            &:before{
+                background: rgba(0, 0, 0, 0.45);
+                content: "";
+                position: absolute;
+                height: 100vh;
+                min-height: 700px;
+                top: 0;
+                left: 0;
+                z-index: 3;
+            }
+            .slide1{
+                background-image: url("../../assets/imgs/head-img-1.jpg");
+            }
+            .slide2{
+                background-image: url("../../assets/imgs/head-img-2.jpg");
+            }
+        }
+    }
 
+
+    .card-section{
+        padding: 7em 0;
+        .heading{
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: "Mukta Mahee", arial, sans-serif;
+            color: #b3b3b3;
+            letter-spacing: .2em;
+            margin-bottom: 30px;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        
+    }
+
+
+    .content-desc{
+        padding: 5em 0;
+        position: relative;
+        padding-bottom: 1rem !important;
+        .desc-setting{
+            text-align: center!important;
+            margin-bottom: 3rem!important;
+            justify-content: center!important;
+            -webkit-box-pack: center!important;
+        }
+
+        .heading{
+            font-size: 80px;
+            font-family: "Playfair+Display", times, serif;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .content-blogpost{
+        .blog-post{
+            position: relative; 
+            margin-top: -500px;
+            padding-top: 500px;
+        }
+
+        .text-center {
+            text-align: center!important;
+        }
+
+        .mb-5{
+            margin-bottom: 3rem!important;
+        }
+
+        justify-content-center {
+            -webkit-box-pack: center!important;
+            justify-content: center!important;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        
+        .heading{
+            font-size: 80px;
+            font-family: "Playfair+Display", times, serif;
+        }
+
+    }
+
+
+    .overlay{
+        &:before{
+            background: rgba(0, 0, 0, 0.45);
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
 }
