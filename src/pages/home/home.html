@@ -9,7 +9,14 @@
 
 <ion-content>
   <!-- ion head section -->
-    <section class="top-section overlay">
+    <section class="top-section">
+      <ion-slides class="overlay" pager #imageslider autoplay = "5000" loop = "true" speed = "500" pager="true">
+          <ion-slide class="slide1">
+          </ion-slide>
+        <ion-slide class="slide2">
+        </ion-slide>
+        
+      </ion-slides>
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <ion-col col-md-12 text-center>
@@ -21,9 +28,172 @@
       </div>
     </section>
     <!-- ion slider section -->
-    <section class="content-slider"></section>
+
+
+
+    <section class="card-section">
+      <div class="container">
+          <ion-row>
+              <ion-col col-md-12>
+                <h2 class="heading">You Can Visit</h2>
+              </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col col-lg-3 col-md-6>
+              <ion-card>
+                <img src="../../assets/imgs/img_1.jpg" alt="" class="img-fluid">
+              </ion-card>
+
+              <ion-card-content>
+                  <ion-card-title>
+                    Food & Wines
+                    </ion-card-title>
+                  <p>
+                    The most popular industrial group ever, and largely
+                    responsible for bringing the music to a mass audience.
+                  </p>
+                </ion-card-content>
+            </ion-col>
+
+            <ion-col col-lg-3 col-md-6>
+                <ion-card>
+                  <img src="../../assets/imgs/img_2.jpg" alt="" class="img-fluid">
+                </ion-card>
+  
+                <ion-card-content>
+                    <ion-card-title>
+                      Resort and spa
+                      </ion-card-title>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                         when an unknown place.
+                    </p>
+                  </ion-card-content>
+              </ion-col>
+
+              <ion-col col-lg-3 col-md-6>
+                  <ion-card>
+                    <img src="../../assets/imgs/img_3.jpg" alt="" class="img-fluid">
+                  </ion-card>
+    
+                  <ion-card-content>
+                      <ion-card-title>
+                        Hotel and Rooms
+                        </ion-card-title>
+                      <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                           when an unknown place.
+                      </p>
+                    </ion-card-content>
+                </ion-col>
+
+
+                <ion-col col-lg-3 col-md-6>
+                    <ion-card>
+                      <img src="../../assets/imgs/img_4.jpg" alt="" class="img-fluid">
+                    </ion-card>
+      
+                    <ion-card-content>
+                        <ion-card-title>
+                          Yacht Club
+                          </ion-card-title>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                             when an unknown place.
+                        </p>
+                      </ion-card-content>
+                  </ion-col>
+          </ion-row>
+      </div>
+    </section>
+
+
+
     <!-- Description -->
-    <section class="content-desc"></section>
-    <!-- blopost sectoin -->
-    <section class="content-blogpost"></section>
+    <section class="content-desc">
+      <div class="container">
+        <ion-row class="desc-setting">
+          <ion-col col-md-8 col-lg-6>
+              <h2 class="heading">A gorgeous place to enjoy your life.</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
+          </ion-col>
+        </ion-row>
+      </div>
+
+    </section>
+    <!-- blogpost sectoin -->
+    <section class="content-desc blog-post">
+        <div class="container">
+            <ion-row class="desc-setting">
+              <ion-col col-md-8 col-lg-6>
+                  <h2 class="heading">Recent Blog Post.</h2>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
+              </ion-col>
+            </ion-row>
+        </div>  
+    </section>
+
+    <!-- Blog Links-->
+    <section>
+        <div class="container">
+            <ion-row>
+              <ion-col col-lg-4 col-md-6>
+                <ion-card>
+                  <img src="../../assets/imgs/img_1.jpg" alt="" class="img-fluid">
+                </ion-card>
+  
+                <ion-card-content>
+                    <ion-card-title>
+                      Food & Wines
+                      </ion-card-title>
+                    <p>
+                      The most popular industrial group ever, and largely
+                      responsible for bringing the music to a mass audience.
+                    </p>
+                  </ion-card-content>
+              </ion-col>
+  
+              <ion-col col-lg-4 col-md-6>
+                  <ion-card>
+                    <img src="../../assets/imgs/img_2.jpg" alt="" class="img-fluid">
+                  </ion-card>
+    
+                  <ion-card-content>
+                      <ion-card-title>
+                        Resort and spa
+                        </ion-card-title>
+                      <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                           when an unknown place.
+                      </p>
+                    </ion-card-content>
+                </ion-col>
+  
+                <ion-col col-lg-4 col-md-6>
+                    <ion-card>
+                      <img src="../../assets/imgs/img_3.jpg" alt="" class="img-fluid">
+                    </ion-card>
+      
+                    <ion-card-content>
+                        <ion-card-title>
+                          Hotel and Rooms
+                          </ion-card-title>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                             when an unknown place.
+                        </p>
+                      </ion-card-content>
+                  </ion-col>
+  
+  
+            </ion-row>
+        </div>
+      </section>
+  
 </ion-content>
