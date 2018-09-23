@@ -1,14 +1,17 @@
-<ion-header>
-  <ion-navbar>
+<!-- <ion-header> -->
+  <!-- <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+  </ion-navbar> -->
+<!-- </ion-header> -->
 
 <ion-content>
   <!-- ion head section -->
+  <button ion-button menuToggle class="menu-toggle">
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <section class="top-section">
       <ion-slides class="overlay" pager #imageslider autoplay = "5000" loop = "true" speed = "500" pager="true">
           <ion-slide class="slide1">
@@ -20,8 +23,8 @@
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <ion-col col-md-12 text-center>
-            <h1 class="heading">Welcome to <em>Tripso</em></h1>
-            <p class="sub-heading">Discover our world-class hotel &amp; restaurant resort.</p>
+            <h1 class="heading">Welcome to <em>Trippers</em></h1>
+            <p class="sub-heading">Let's go out there &amp; The World's Calling You!</p>
           </ion-col>
         </div>
         <!-- <a href="#" class="scroll-down">Scroll Down</a> -->
@@ -114,10 +117,10 @@
 
 
     <!-- Description -->
-    <section class="content-desc">
+    <section class="content-desc text-theme">
       <div class="container">
         <ion-row class="desc-setting">
-          <ion-col col-md-8 col-lg-6>
+          <ion-col col-md-8 col-lg-9 text-center class="about-content">
               <h2 class="heading">A gorgeous place to enjoy your life.</h2>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
           </ion-col>
@@ -126,10 +129,10 @@
 
     </section>
     <!-- blogpost sectoin -->
-    <section class="content-desc blog-post">
+    <section class="content-desc blog-post  text-theme">
         <div class="container">
             <ion-row class="desc-setting">
-              <ion-col col-md-8 col-lg-6>
+              <ion-col col-md-8 col-lg-9 text-center class="about-content">
                   <h2 class="heading">Recent Blog Post.</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
               </ion-col>
@@ -141,7 +144,7 @@
     <section>
         <div class="container">
             <ion-row>
-              <ion-col col-lg-4 col-md-6>
+              <ion-col col-lg-4 col-md-6 col-12>
                 <ion-card>
                   <img src="../../assets/imgs/img_1.jpg" alt="" class="img-fluid">
                 </ion-card>
@@ -157,7 +160,7 @@
                   </ion-card-content>
               </ion-col>
   
-              <ion-col col-lg-4 col-md-6>
+              <ion-col col-lg-4 col-md-6 col-12>
                   <ion-card>
                     <img src="../../assets/imgs/img_2.jpg" alt="" class="img-fluid">
                   </ion-card>
@@ -174,7 +177,7 @@
                     </ion-card-content>
                 </ion-col>
   
-                <ion-col col-lg-4 col-md-6>
+                <ion-col col-lg-4 col-md-6 col-12>
                     <ion-card>
                       <img src="../../assets/imgs/img_3.jpg" alt="" class="img-fluid">
                     </ion-card>
@@ -190,10 +193,31 @@
                         </p>
                       </ion-card-content>
                   </ion-col>
-  
-  
             </ion-row>
         </div>
       </section>
+      <ion-toolbar position="bottom">
+          <footer id="red">
+              <h1 class="brand-name">DMC</h1>
+              <h2 class="copyrights">&copy;	TRIPPERS - DESIGNED BY SAGAR MANGHNANI</h2>
+              <ion-row>
+                <ion-col text-right col-5 class="address">
+                  <ion-row class="unique">Let's Catch up @</ion-row>
+                  <ion-row>5th Main</ion-row>
+                  <ion-row>Parker's avenue</ion-row>
+                  <ion-row>St. Mark's Street, London.</ion-row>
+                  <ion-row>+91 9461 031 061</ion-row>
+                </ion-col>
+                <ion-col text-right offset-2 col-5 class="social-handlers">
+                  <ion-row>
+                    <img src="../../assets/imgs/footer/facebook.svg" />
+                    <img src="../../assets/imgs/footer/twitter.png" />
+                    <img src="../../assets/imgs/footer/linkedin.png" />
+                    <img src="../../assets/imgs/footer/google-plus.png" />
+                  </ion-row>
+                </ion-col>
+              </ion-row>
+            </footer>
+      </ion-toolbar>
   
 </ion-content>

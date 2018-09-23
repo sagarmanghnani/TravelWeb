@@ -14,3 +14,73 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.menu-bar{
+    .toolbar-background{
+        border-color: #fff;
+        background: #46529d;
+        font-size: 1.5em;
+        box-shadow: none;
+    }
+}
+.menu-content{
+    background: #46529d;
+    .list{
+        button{
+            color: #fff;
+            background-color: #46529d;
+            .item-inner{
+                border-bottom: none !important;
+            }
+        }
+    }
+}
+
+ion-toolbar{
+    padding: 0 !important;
+}
+#red{ 
+    border-top: solid #46529d;
+    border-width: 15px;
+    background: #2E2E2E; 
+    height: 100%;
+    padding-bottom: 1em;
+    .brand-name{
+        color: #d2d2d2;
+        font-family: Lato;
+        text-align: center;
+        font-size: 4em;
+        margin-top: 5rem;
+    }
+    .copyrights{
+        color: #d2d2d2;
+        font-family: Lato;
+        text-align: center;
+        font-size: 1em;
+        margin-top: 2rem;
+    }
+    .address{
+        line-height: 1.5em;
+        color: #d2d2d2;
+        padding-left: 4em;
+        display: block;
+        font-size: 1.2em;
+        font-family: Roboto;
+        font-weight: 100;
+        .unique{
+            color: #fbec00;
+        }
+    }
+    .social-handlers{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 4em;
+        img{
+            width: 30px;
+            height: 30px;
+            margin-right: 1em;
+            cursor: pointer;
+        }
+    }
+  }
+  
+//   footer ends

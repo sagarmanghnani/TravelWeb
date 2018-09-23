@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, Slides } from 'ionic-angular';
+import { NavController, Slides, MenuController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +8,8 @@ import { NavController, Slides } from 'ionic-angular';
 export class HomePage {
 
   @ViewChild('imageslider') slider: Slides;
-  constructor(public navCtrl: NavController, ) {
-
+  constructor(public navCtrl: NavController, public menu:MenuController) {
+    this.menu.enable(true, 'menu1');
   }
 
   slideToNext()

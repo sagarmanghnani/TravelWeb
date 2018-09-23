@@ -12,11 +12,36 @@ page-blog {
 
         .writer{
             margin-top: 30%;
+            ion-col{
+                font-size: 1.5em;
+                color: #fbec00;
+                font-family: Roboto;
+                font-weight: 600;
+            }
+        }
+        .blogtitle{
+            line-height: 1.5;
+            font-size: 2em;
+            font-weight: 100;
+            font-family: Roboto;
+        }
+        button{
+            background: none;
+            box-shadow: none;
+            font-size: 2rem;
+            &:hover{
+                background-color: none !important;
+                box-shadow: none;
+            }
+        }
+        .button-md:hover:not(.disable-hover){
+            background-color: none !important;
         }
 
     }
 
     .rightpane{
+        padding:0;
         .imageContainer{
             max-height: 30%;
         }

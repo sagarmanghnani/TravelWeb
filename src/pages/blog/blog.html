@@ -6,22 +6,18 @@
 -->
 
 <ion-content>
-    <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
 <div>
   <ion-grid class="grid">
     <ion-row>
-      <ion-col col-4 class="leftpane">
-        <ion-row class="paddingfix">
-            <ion-col text-right>DesignBoat</ion-col>
-        </ion-row>
-
+      <ion-col col-12 col-lg-4 col-md-4 class="leftpane">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
         <ion-row class="paddingfix writer">
           <ion-col>Alex Cook</ion-col>
         </ion-row>
 
-        <ion-row class="paddingfix">
+        <ion-row class="paddingfix blogtitle">
           <ion-col>
             <p>The<br>World's Most<br>Extraordinary<br>Destinations</p> 
           </ion-col> 
@@ -29,7 +25,7 @@
 
       </ion-col>
 
-      <ion-col col-8 class="rightpane">
+      <ion-col col-12 col-lg-8 col-md-8 class="rightpane">
         <ion-row class="imageContainer">
             <img src="../../assets/imgs/Himalaya_Mountain.jpg">
         </ion-row>
@@ -51,4 +47,27 @@
     </ion-row>
   </ion-grid>
   </div>  
+  <ion-toolbar position="bottom">
+      <footer id="red">
+          <h1 class="brand-name">DMC</h1>
+          <h2 class="copyrights">&copy;	TRIPPERS - DESIGNED BY SAGAR MANGHNANI</h2>
+          <ion-row>
+            <ion-col text-right col-5 class="address">
+              <ion-row class="unique">Let's Catch up @</ion-row>
+              <ion-row>5th Main</ion-row>
+              <ion-row>Parker's avenue</ion-row>
+              <ion-row>St. Mark's Street, London.</ion-row>
+              <ion-row>+91 9461 031 061</ion-row>
+            </ion-col>
+            <ion-col text-right offset-2 col-5 class="social-handlers">
+              <ion-row>
+                <img src="../../assets/imgs/footer/facebook.svg" />
+                <img src="../../assets/imgs/footer/twitter.png" />
+                <img src="../../assets/imgs/footer/linkedin.png" />
+                <img src="../../assets/imgs/footer/google-plus.png" />
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </footer>
+  </ion-toolbar>
 </ion-content>
