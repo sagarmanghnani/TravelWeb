@@ -26,7 +26,7 @@ export class ContactPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ContactPage');
-    //this.loadMap();
+    this.loadMap();
   }
 
   loadMap(){

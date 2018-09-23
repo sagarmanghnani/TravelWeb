@@ -1,7 +1,26 @@
 page-contact {
+    font-family: Roboto;
+    .toggle-btn{
+        background: none !important;
+        box-shadow: none !important;
+        color: #46529d;
+        font-size: 1.5em;
+        &:hover{
+            background: none !important;
+        }
+    }
+    .contact-form{
+        padding-bottom: 2em;
+        justify-content: space-around;
+        padding-top: 2em;
+        .form-button{
+            justify-content: center;
+            padding-top: 2em;
+        }
+    }
     hr {
         border:none;
-        border-top:1px dotted #46529d;
+        border-top:2px solid #46529d;
         color:#fff;
         background-color:#fff;
         height:1px;
