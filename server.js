@@ -17,10 +17,7 @@ app.use(function(req, res, next) {
 });
  
 app.use(express.static('www'));
-// app.set('port', process.env.PORT || 5000);
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode");
+app.set('port', process.env.PORT || 5000);
+app.listen(app.get('port'), function () {
+  console.log('Express server listening on port ' + app.get('port'));
 });
-// app.listen(app.get('port'), function () {
-//   console.log('Express server listening on port ' + app.get('port'));
-// });
