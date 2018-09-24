@@ -31,12 +31,12 @@ export class ContactPage {
 
   loadMap(){
  
-    var point = {lat: 13.038039, lng: 80.21597};
-    let latLng = new google.maps.LatLng(9.038039, 138.6010);
+    var point = {lat: 12.971599, lng: 77.594566};
+    let latLng = new google.maps.LatLng(12.971599, 77.594566);
  
     let mapOptions = {
       center: latLng,
-      zoom: 15,
+      zoom: 10,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
  
