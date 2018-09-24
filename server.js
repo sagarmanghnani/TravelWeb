@@ -11,7 +11,9 @@ app.all('*', function(req, res, next) {
 });
 
 // API Routes
-// app.get('/blah', routeHandler);
+app.get('/', function(req,res) {
+    res.sendFile('./www/index.html');
+});
 
 app.set('port', process.env.PORT || 5000);
 

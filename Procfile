@@ -1,1 +1,0 @@
-webw : npm run build && npm run python
